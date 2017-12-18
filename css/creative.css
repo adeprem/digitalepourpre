@@ -35,6 +35,10 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
+.img {
+  border-radius: 5%;
+}
+
 .bg-primary {
   background-color: #F05F40 !important;
   .bg-jobs {

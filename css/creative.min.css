@@ -10,6 +10,9 @@ f/*!
   background-image: url("../img/team.jpg");
   background-size: cover;
 }
+
+.img {
+  border-radius: 5%;
 }
 
 
@@ -53,16 +56,18 @@ header.masthead-jobs {
 
                       font-size: 4rem; }}
                       @media (max-width: 992px) {
-              header.masthead-jobs {
-                padding-top: 10rem;
-                padding-bottom: calc(10rem - 56px);
-                background-image: url("../img/team.jpg");
-                background-position: center center;
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover;
-                height: 100vh;
-                min-height: 650px;
-                padding-top: 0;
-                padding-bottom: 0; }
+                        header.masthead-jobs {
+                          padding-top: 10rem;
+                          padding-bottom: calc(10rem - 56px);
+                          background-image: url("../img/team.jpg");
+                          background-position: center center;
+                          -webkit-background-size: cover;
+                          -moz-background-size: cover;
+                          -o-background-size: cover;
+                          background-size: cover;
+                          height: 100vh;
+                          min-height: 650px;
+                          padding-top: 0;
+                          padding-bottom: 0; }
+                        }
+
